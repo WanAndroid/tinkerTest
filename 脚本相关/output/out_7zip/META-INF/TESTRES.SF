@@ -1,0 +1,20 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: 0LPzhBh4mQ9plSv/uqd4keWkBho=
+SHA1-Digest-Manifest: 98mzqcxStrLhZvNXcFSwprd2hiM=
+Created-By: 1.8.0_101 (Oracle Corporation)
+
+Name: assets/package_meta.txt
+SHA1-Digest: ydhmDiHLUcgvTxxJcZyjgNuY6KI=
+
+Name: res/drawable/ic_launcher.jpg
+SHA1-Digest: BRDkquEs6ujUheOsS1e7Cyl+ffU=
+
+Name: resources.arsc
+SHA1-Digest: gFTiORDJx4Mvjzw9HLzIVOyn1wI=
+
+Name: assets/only_use_to_test_tinker_resource.txt
+SHA1-Digest: 4LmW7LVvS3uEBefUZ25tbHXKme0=
+
+Name: assets/res_meta.txt
+SHA1-Digest: I6+qJquD84jnw2K9E/RgWSUYNjU=
+

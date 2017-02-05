@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_101 (Oracle Corporation)
+
+Name: assets/package_meta.txt
+SHA1-Digest: sjDUBz6YEXk+1dgofQFwSiy2/gg=
+
+Name: res/drawable/ic_launcher.jpg
+SHA1-Digest: EaodytI/3IDFMC+EYRduzx7K6mo=
+
+Name: resources.arsc
+SHA1-Digest: 4psqm9E3+wfX77Y5Cakrqdt+4vo=
+
+Name: assets/only_use_to_test_tinker_resource.txt
+SHA1-Digest: 0hDOMk1uWmkEPB3FP6r29AqdwR4=
+
+Name: assets/res_meta.txt
+SHA1-Digest: wZyFhCqa6hS+4EVCEB2zSSUZFqw=
+

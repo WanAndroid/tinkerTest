@@ -1,0 +1,5 @@
+add resource: res/drawable/ic_launcher.jpg, oldSize=0, newSize=156540
+large modify resource: resources.arsc, oldSize=190920, newSize=190920
+deleted resource: res/drawable/ic_launcher.png, oldSize=4366, newSize=0
+add test resource: assets/only_use_to_test_tinker_resource.txt, oldSize=0, newSize=24
+Final normal zip resource: resources_out.zip, size=580846, md5=a03f8e91b8240775ce332e237f1a15e6

@@ -1,0 +1,12 @@
+resources_out.zip,3669625797,d86468b8b983d1fb2977954de852bbdd
+pattern:3
+resources.arsc
+res/*
+assets/*
+large modify:1
+resources.arsc,d86468b8b983d1fb2977954de852bbdd,2482602101
+add:2
+res/drawable/ic_launcher.jpg
+assets/only_use_to_test_tinker_resource.txt
+delete:1
+res/drawable/ic_launcher.png

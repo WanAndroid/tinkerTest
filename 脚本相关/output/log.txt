@@ -1,0 +1,51 @@
+-----------------------Tinker patch begin-----------------------
+configuration: 
+oldApk:/Users/zhanghongyang01/hongyang/works/tinker接入/test/old.apk
+newApk:/Users/zhanghongyang01/hongyang/works/tinker接入/test/new.apk
+outputFolder:/Users/zhanghongyang01/hongyang/works/tinker接入/test/output
+isIgnoreWarning:false
+7-ZipPath:7za
+useSignAPk:true
+package meta fields: 
+filed name:patchMessage, filed value:classes.dex
+filed name:platform, filed value:all
+dex configs: 
+dexMode: jar
+dexPattern:classes.*\.dex
+dexPattern:assets/secondary-dex-.\.jar
+dex loader:com.tencent.tinker.loader.*
+dex loader:tinker.sample.android.app.SampleApplication
+lib configs: 
+libPattern:lib/armeabi/.*\.so
+resource configs: 
+resPattern:resources\.arsc
+resPattern:AndroidManifest\.xml
+resPattern:res/.*
+resPattern:assets/.*
+resIgnore change:assets/sample_meta\.txt
+largeModSize:100kb
+useApplyResource:false
+
+Analyze old and new apk files:
+old apk: old.apk, size=1279581, md5=17f79e1a59071995eb069ed3626a4f63
+new apk: new.apk, size=1447549, md5=973b3c906bb5a8c2d3aec8a341570a21
+UnZipping apk to /Users/zhanghongyang01/hongyang/works/tinker接入/test/output/old
+UnZipping apk to /Users/zhanghongyang01/hongyang/works/tinker接入/test/output/new
+Check for loader classes in dex: classes.dex
+Found add resource: res/drawable/ic_launcher.jpg
+Found large modify resource: resources.arsc size:190920
+No dexes were changed, nothing needs to be done next.
+Found deleted resource: res/drawable/ic_launcher.png
+Add Test resource file: assets/only_use_to_test_tinker_resource.txt
+Final normal zip resource: resources_out.zip, size=580846, md5=a03f8e91b8240775ce332e237f1a15e6
+7a patch file failed, you should set the zipArtifact, or set the path directly
+Generate unsigned apk: patch_unsigned.apk
+Signing apk: patch_signed.apk
+Signing key algorithm is SHA1withRSA
+Try use 7za to compress the patch file: patch_signed_7zip.apk, will cost much more time
+Current 7za path:7za
+7a patch file failed, you should set the zipArtifact, or set the path directly
+Result: final signed patch result: /Users/zhanghongyang01/hongyang/works/tinker接入/test/output/patch_signed.apk, size=152399
+Tinker patch done, total time cost: 2.551000s
+Tinker patch done, you can go to file to find the output /Users/zhanghongyang01/hongyang/works/tinker接入/test/output
+-----------------------Tinker patch end-------------------------
